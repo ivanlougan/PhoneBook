@@ -32,4 +32,8 @@ public class Contact implements Comparable<Contact>{
     public String toString() {
         return name + " - " + telephone;
     }
+
+    public String toCSV() {
+        return name + ";" + telephone;
+    }
 }
